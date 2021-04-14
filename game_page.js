@@ -1,0 +1,12 @@
+p1_name = localStorage.getItem("Player 1 Name")
+p2_name = localStorage.getItem("Player 2 Name")
+p1_score = 0
+p2_score = 0
+document.getElementById("p1_score").innerHTML = p1_score
+document.getElementById("p2_score").innerHTML = p2_score
+document.getElementById("p1_name").innerHTML = p1_name + " : "
+document.getElementById("p2_name").innerHTML = p2_name + " : "
+aturn = "player2"
+qturn = "player1"
+document.getElementById("QTurn").innerHTML = "Question Turn : " + p1_name
+document.getElementById("ATurn").innerHTML = "Answer Turn : " +p2_name
